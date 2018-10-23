@@ -6,7 +6,7 @@ pipeline {
             steps {
                 script{
                     modules.first = load "first.groovy"                   
-                    modules.first.test1()
+                    modules.first.call()
                     
                 }
             }
