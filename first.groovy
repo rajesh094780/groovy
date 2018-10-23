@@ -1,8 +1,8 @@
 def test1(){
-    //add code for this method
+    println "hello";
 }
 def test2(){
-    //add code for this method
+    println "hello2";
 }
 return this
 
