@@ -1,5 +1,9 @@
 def test1(){
-    println "Hello";
+    def targetBranch = (params.upstreamBranch ?: env.BRANCH_NAME).toLowerCase()
+    def clusterMeta = [:]
+
+    println "On branch $env.BRANCH_NAME ; targetBranch is |$targetBranch|"
+    
 }
 
 return this
